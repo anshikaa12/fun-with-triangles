@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;600;700;900&display=swap');
+
+body{
+    font-family: 'MuseoModerno', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:100vh;
+}
+header{
+    color: #6f1d1b;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50vh;
+    height: 50vh;
+    
+}
+
+.box{
+    text-align: center;
+    vertical-align: center;
+    color:#ffe6a7;
+    margin: 5px;
+    padding: 20px; 
+    background-color:#bb9457 ;
+    transition: all 1.1; 
+    box-shadow: 1px 1px #60000000;
+}
+.box:hover{
+    background-color:#6f1d1b;
+     opacity: 0.9;   
+     transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color:#ffe6a7 ;
+}
+.container1{
+    width: 60%;
+    height:70vh;
+    margin: 50px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    
+}
+.container1 h3{
+    width:58%;
+    color:#6f1d1b;
+}
+button {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  button:hover {
+   
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+   
+  }
+
+ .angle-input{
+       padding:15px;
+       width:50px;
+       margin: 10px;
+       border: 1px solid #6f1d1b;
+  }
+
+  .inputb{
+      margin: 20px;
+      border: 1px solid #bb9457;
+  }
+
+  .angles-btn{
+      padding:10px;
+      width:70px;
+      height:40px;
+      background-color:#6f1d1b;
+      border-radius:15px;
+  }
+
+  .result-angles{
+      padding:15px;
+      border: 1px solid #bb9457;
+      margin: 15px;
+      width: 300px;
+      height: 30px;
+      text-align: center;
+  }
+
+  footer{
+     
+      padding-bottom:20px;
+     text-align: center;
+      width: 100%;
+  }
+  footer span{
+      padding: 10px;
+      margin-left: 10px;
+    
+  }
+  i{
+      color: #6f1d1b;
+  }
+
+  img{
+      height:200px;
+      width: 200px;
+  }
+
+  .card1{
+      flex: 1;
+     border:1.5px solid #bb9457 ;
+     box-shadow: 0px 0px 5px grey;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 20px;
+     padding:10px
+
+  }
+  .card-container{
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin-bottom: 100px;
+
+
+  }
+  .inp{
+    margin: 20px;
+    border: 1px solid #bb9457;
+    padding: 5px;
+  }
+  .areai{
+    padding:15px;
+    width:20px;
+    margin: 10px;
+    border: 1px solid #6f1d1b;
+
+  }
+  .area-btn{
+    padding:2px;
+    width:120px;
+    height:40px;
+    background-color:#6f1d1b;
+    border-radius:15px;
+  }
+
+  .areain{
+padding:5px;
+  width:50px;
+  margin: 10px;
+  border: 1px solid #6f1d1b;
+  }
+  .areainp{
+    padding:5px;
+    width:40px;
+    margin: 5px;
+    border: 1px solid #6f1d1b;   
+  }
